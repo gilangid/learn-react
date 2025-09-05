@@ -186,12 +186,14 @@ export default function Page() {
           </MobileNav>
         </Navbar>
       </div>
-      <HeroParallax products={products} />
+      <div className="relative z-0 overflow-hidden">
+        <HeroParallax products={products} />
+      </div>
    
     {/* Feature section */}
-      <section className="relative overflow-hidden rounded-3xl mt-4 mr-6 mb-4 ml-6 border border-black/10 px-6">
+      <section className="relative isolate z-10 overflow-hidden rounded-3xl mt-4 mr-6 mb-4 ml-6 border border-black/10 px-6">
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-emerald-100 to-lime-100"></div>
-      <div className="max-w-7xl md:py-20 mr-auto ml-auto pt-16 pr-6 pb-16 pl-6">
+      <div className="relative z-10 max-w-7xl md:py-20 mr-auto ml-auto pt-16 pr-6 pb-16 pl-6">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="FeatureMain">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium text-neutral-900 tracking-tight break-words" style={{}}>Turn bold ideas into products — <span className="font-normal italic font-instrument-serif" style={{}}>growth without the noise</span></h1>
@@ -251,7 +253,7 @@ export default function Page() {
 
           {/* Product demo card */}
           <div className="relative">
-            <article className="group relative overflow-hidden transition-shadow hover:shadow-md shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] bg-neutral-900 border-neutral-800 border rounded-3xl">
+            <article className="group relative w-full overflow-hidden transition-shadow hover:shadow-md shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] bg-neutral-900 border-neutral-800 border rounded-3xl">
   <div className="sm:p-8 pt-6 pr-6 pb-6 pl-6">
     <div className="relative h-56 sm:h-64 rounded-2xl bg-neutral-900 ring-1 ring-inset ring-white/5 overflow-hidden">
       <svg className="absolute inset-0 h-full w-full text-neutral-800" aria-hidden="true">
@@ -479,10 +481,11 @@ export default function Page() {
   </div>
 </div>
       </div>
-    </section><section className="pt-10 pb-10" id="aura-emeeh0qpk">
+    </section><section className="relative isolate overflow-hidden pt-10 pb-10 mt-10 sm:mt-12" id="aura-emeeh0qpk">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="sm:p-10 text-white bg-emerald-900 bg-[url(https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/5dcd0c14-fe23-45bd-8342-afa6ed57a1ad_3840w.jpg)] bg-cover rounded-3xl pt-8 pr-8 pb-8 pl-8" style={{}}>
-          <div className="grid md:grid-cols-4 gap-8 items-start">
+        <div className="relative isolate overflow-hidden text-white bg-emerald-900 bg-[url(https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/5dcd0c14-fe23-45bd-8342-afa6ed57a1ad_3840w.jpg)] bg-cover bg-center rounded-3xl p-6 sm:p-10 ring-1 ring-emerald-800/30 shadow-sm" style={{}}>
+          <div className="absolute inset-0 bg-emerald-900/50"></div>
+          <div className="relative z-10 grid grid-cols-2 sm:grid-cols-4 gap-6 items-start">
             <div className="">
               <p className="text-3xl font-medium tracking-tight" style={{}}>68k+</p>
               <p className="text-sm text-emerald-100 mt-1 font-sans">Interfaces shipped</p>
@@ -497,7 +500,7 @@ export default function Page() {
             </div>
             <div className="flex items-start gap-3">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="map-pin" className="lucide lucide-map-pin h-5 w-5 mt-1"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-              <p className="text-sm text-green-950">
+              <p className="text-sm text-emerald-100">
                 Seamless mobile and web experiences backed by research, design systems, and clear communication.
               </p>
             </div>
