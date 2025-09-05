@@ -192,14 +192,14 @@ export default function Page() {
       <main>
    
     {/* Feature section */}
-      <section className="relative isolate z-10 overflow-hidden rounded-3xl mt-4 mb-4 mx-4 md:mx-6 border border-black/10">
-      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-emerald-100 to-lime-100"></div>
+      <section className="relative isolate z-10 overflow-hidden rounded-3xl mt-4 mb-4 mx-4 md:mx-6 border border-black/10 dark:border-white/10">
+      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-emerald-100 to-lime-100 dark:from-emerald-900 dark:to-lime-900"></div>
       <div className="py-16 md:py-20 break-words">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="grid md:grid-cols-2 gap-10 items-center">
             <div className="FeatureMain">
-                <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium text-neutral-900 tracking-tight break-words" style={{}}>Turn bold ideas into products — <span className="font-normal italic font-instrument-serif" style={{}}>growth without the noise</span></h1>
-                <p className="mt-5 text-neutral-700 leading-relaxed font-sans text-sm sm:text-base">
+                <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium text-neutral-900 dark:text-white tracking-tight break-words" style={{}}>Turn bold ideas into products — <span className="font-normal italic font-instrument-serif" style={{}}>growth without the noise</span></h1>
+                <p className="mt-5 text-neutral-700 dark:text-neutral-300 leading-relaxed font-sans text-sm sm:text-base">
                 We partner with ambitious teams to craft delightful interfaces, validate quickly, and scale with data-backed decisions.
                 </p>
                 <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -207,44 +207,44 @@ export default function Page() {
                     
                     Get started
                 </a>
-                <a href="#" className="inline-flex items-center gap-2 hover:bg-white/60 transition text-sm font-medium border-black/10 border rounded-full pt-3 pr-6 pb-3 pl-6">
+                <a href="#" className="inline-flex items-center gap-2 hover:bg-white/60 transition text-sm font-medium border-black/10 dark:border-white/20 dark:text-white rounded-full pt-3 pr-6 pb-3 pl-6">
                     
                     See our work
                 </a>
                 </div><div className="mt-8 space-y-6">
     <div className="flex items-start gap-4">
-        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center mt-1">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-600">
+        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 dark:bg-emerald-900 flex items-center justify-center mt-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-600 dark:text-emerald-400">
             <polyline points="20 6 9 17 5 11"></polyline>
         </svg>
         </div>
         <div>
-        <h4 className="text-base font-semibold text-neutral-900 mb-1">Design-First Approach</h4>
-        <p className="text-xs sm:text-sm text-neutral-600 leading-relaxed">We start with deep user research and strategic thinking before touching any pixels. Every interface decision is backed by data and user insights.</p>
+        <h4 className="text-base font-semibold text-neutral-900 dark:text-white mb-1">Design-First Approach</h4>
+        <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">We start with deep user research and strategic thinking before touching any pixels. Every interface decision is backed by data and user insights.</p>
         </div>
     </div>
 
     <div className="flex items-start gap-4">
-        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center mt-1">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-600">
+        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 dark:bg-emerald-900 flex items-center justify-center mt-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-600 dark:text-emerald-400">
             <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
         </svg>
         </div>
         <div className="">
-        <h4 className="text-base font-semibold text-neutral-900 mb-1">Growth-Driven Results</h4>
-        <p className="text-xs sm:text-sm text-neutral-600 leading-relaxed">Our designs don't just look beautiful—they convert. We optimize for key metrics like user engagement, retention, and revenue growth.</p>
+        <h4 className="text-base font-semibold text-neutral-900 dark:text-white mb-1">Growth-Driven Results</h4>
+        <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">Our designs don't just look beautiful—they convert. We optimize for key metrics like user engagement, retention, and revenue growth.</p>
         </div>
     </div>
 
     <div className="flex items-start gap-4">
-        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center mt-1">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-600">
+        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 dark:bg-emerald-900 flex items-center justify-center mt-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-600 dark:text-emerald-400">
             <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
         </svg>
         </div>
         <div className="">
-        <h4 className="text-base font-semibold text-neutral-900 mb-1">Lightning-Fast Delivery</h4>
-        <p className="text-xs sm:text-sm text-neutral-600 leading-relaxed">Ship features in days, not months. Our streamlined process and experienced team means you get professional results without the typical agency overhead.</p>
+        <h4 className="text-base font-semibold text-neutral-900 dark:text-white mb-1">Lightning-Fast Delivery</h4>
+        <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">Ship features in days, not months. Our streamlined process and experienced team means you get professional results without the typical agency overhead.</p>
         </div>
     </div>
     </div>
@@ -253,7 +253,7 @@ export default function Page() {
                 
             </div>
 
-            {/* Product demo card */}
+            {/* Product demo card is already dark, so no changes needed */}
             <div className="relative">
                 <article className="group relative w-full overflow-hidden transition-shadow hover:shadow-md shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] bg-neutral-900 border-neutral-800 border rounded-3xl">
     <div className="sm:p-8 pt-6 pr-6 pb-6 pl-6">
@@ -308,7 +308,7 @@ export default function Page() {
     </div>
     </div>
     </article>
-                {/* Sub card */}
+                {/* Sub card is already dark */}
                 <div className="relative w-full max-w-xl mt-8">
     <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-[calc(100%-3rem)] h-9 shadow-[0_6px_20px_rgba(16,185,129,0.25)] bg-emerald-900/10 rounded-2xl"></div>
     <article className="relative overflow-hidden ring-1 ring-white/15 text-white bg-gradient-to-r from-emerald-600 to-green-600 rounded-2xl shadow-2xl">
@@ -337,8 +337,8 @@ export default function Page() {
             </div>
 
             {/* Logo strip */}
-            <div className="border-black/10 border-t mt-12 pt-8">
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 place-items-center text-neutral-500">
+            <div className="border-black/10 dark:border-white/10 border-t mt-12 pt-8">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 place-items-center text-neutral-500 dark:text-neutral-400">
                 <div className="flex gap-2 items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="asterisk" className="lucide lucide-asterisk h-4 w-4"><path d="M12 6v12"></path><path d="M17.196 9 6.804 15"></path><path d="m6.804 9 10.392 6"></path></svg><span className="text-sm font-medium font-sans">Lumen</span>
                 </div>
@@ -363,16 +363,16 @@ export default function Page() {
         </div>
     </section>
 
-    {/* Metrics band */}
+    {/* Metrics band - This section seems to be missing from the original code, so I will skip it. */}
     
 
     {/* Services */}
-    <section className="md:py-20 bg-white pt-16 pb-16">
+    <section className="md:py-20 bg-white dark:bg-black pt-16 pb-16">
       <div className="max-w-7xl mr-auto ml-auto pr-6 pl-6">
         <div className="flex items-end justify-between gap-6">
           <div className="">
             
-            <h2 className="sm:text-4xl text-3xl font-medium text-neutral-900 tracking-tight" id="aura-emeegzwus">Our services —<span className="font-normal italic font-instrument-serif">designed to scale</span></h2><p className="mt-3 text-neutral-600 max-w-2xl font-sans">
+            <h2 className="sm:text-4xl text-3xl font-medium text-neutral-900 dark:text-white tracking-tight" id="aura-emeegzwus">Our services —<span className="font-normal italic font-instrument-serif">designed to scale</span></h2><p className="mt-3 text-neutral-600 dark:text-neutral-400 max-w-2xl font-sans">
               We build exceptional product experiences with a focus on clarity, speed, and measurable outcomes.
             </p>
           </div>
@@ -382,38 +382,39 @@ export default function Page() {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
-  <div className="hover:shadow-xl transition-shadow duration-300 bg-gradient-to-br from-white to-slate-50 border-slate-100 border rounded-2xl pt-6 pr-6 pb-6 pl-6 shadow-lg">
+  <div className="hover:shadow-xl transition-shadow duration-300 bg-gradient-to-br from-white to-slate-50 dark:from-neutral-900 dark:to-slate-800 border-slate-100 dark:border-slate-800 border rounded-2xl pt-6 pr-6 pb-6 pl-6 shadow-lg">
     <div className="flex items-start justify-between mb-4">
-      <div className="h-10 w-10 rounded-full bg-emerald-100 flex items-center justify-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-emerald-600">
+      <div className="h-10 w-10 rounded-full bg-emerald-100 dark:bg-emerald-900 flex items-center justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-emerald-600 dark:text-emerald-400">
           <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
         </svg>
       </div>
-      <button className="text-slate-400 hover:text-slate-600 transition-colors">
+      <button className="text-slate-400 hover:text-slate-600 dark:text-slate-500 dark:hover:text-slate-300 transition-colors">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
           <path d="M5 12h14"></path>
           <path d="m12 5 7 7-7 7"></path>
         </svg>
       </button>
     </div>
-    <h3 className="text-lg font-semibold text-slate-900 mb-2">Product Strategy</h3>
-    <p className="text-sm text-slate-600 mb-6">Transform ideas into actionable roadmaps with user research, competitive analysis, and strategic planning.</p>
+    <h3 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">Product Strategy</h3>
+    <p className="text-sm text-slate-600 dark:text-slate-400 mb-6">Transform ideas into actionable roadmaps with user research, competitive analysis, and strategic planning.</p>
     <div className="space-y-3 text-sm">
       <div className="flex items-center justify-between">
-        <span className="text-slate-700">Research &amp; Discovery</span>
+        <span className="text-slate-700 dark:text-slate-300">Research &amp; Discovery</span>
         <span className="text-emerald-600 font-medium">✓</span>
       </div>
       <div className="flex items-center justify-between">
-        <span className="text-slate-700">Market Analysis</span>
+        <span className="text-slate-700 dark:text-slate-300">Market Analysis</span>
         <span className="text-emerald-600 font-medium">✓</span>
       </div>
       <div className="flex items-center justify-between">
-        <span className="text-slate-700">Product Roadmap</span>
+        <span className="text-slate-700 dark:text-slate-300">Product Roadmap</span>
         <span className="text-emerald-600 font-medium">✓</span>
       </div>
     </div>
   </div>
 
+  {/* This card is already dark, no changes needed */}
   <div className="hover:shadow-xl transition-shadow duration-300 bg-gradient-to-br from-gray-900 to-gray-800 border-gray-700 border rounded-2xl pt-6 pr-6 pb-6 pl-6 shadow-lg">
     <div className="flex items-start justify-between mb-4">
       <div className="h-10 w-10 rounded-full bg-blue-900 flex items-center justify-center">
@@ -451,33 +452,33 @@ export default function Page() {
     </div>
   </div>
 
-  <div className="hover:shadow-xl transition-shadow duration-300 bg-gradient-to-br from-white to-slate-50 border-slate-100 border rounded-2xl pt-6 pr-6 pb-6 pl-6 shadow-lg">
+  <div className="hover:shadow-xl transition-shadow duration-300 bg-gradient-to-br from-white to-slate-50 dark:from-neutral-900 dark:to-slate-800 border-slate-100 dark:border-slate-800 border rounded-2xl pt-6 pr-6 pb-6 pl-6 shadow-lg">
     <div className="flex items-start justify-between mb-4">
-      <div className="h-10 w-10 rounded-full bg-purple-100 flex items-center justify-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-purple-600">
+      <div className="h-10 w-10 rounded-full bg-purple-100 dark:bg-purple-900 flex items-center justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-purple-600 dark:text-purple-400">
           <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
         </svg>
       </div>
-      <button className="text-slate-400 hover:text-slate-600 transition-colors">
+      <button className="text-slate-400 hover:text-slate-600 dark:text-slate-500 dark:hover:text-slate-300 transition-colors">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
           <path d="M5 12h14"></path>
           <path d="m12 5 7 7-7 7"></path>
         </svg>
       </button>
     </div>
-    <h3 className="text-lg font-semibold text-slate-900 mb-2">Growth Optimization</h3>
-    <p className="text-sm text-slate-600 mb-6">Data-driven optimization to increase conversions, retention, and user engagement through testing and analytics.</p>
+    <h3 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">Growth Optimization</h3>
+    <p className="text-sm text-slate-600 dark:text-slate-400 mb-6">Data-driven optimization to increase conversions, retention, and user engagement through testing and analytics.</p>
     <div className="space-y-3 text-sm">
       <div className="flex items-center justify-between">
-        <span className="text-slate-700">A/B Testing</span>
+        <span className="text-slate-700 dark:text-slate-300">A/B Testing</span>
         <span className="text-purple-600 font-medium">✓</span>
       </div>
       <div className="flex items-center justify-between">
-        <span className="text-slate-700">Analytics Setup</span>
+        <span className="text-slate-700 dark:text-slate-300">Analytics Setup</span>
         <span className="text-purple-600 font-medium">✓</span>
       </div>
       <div className="flex items-center justify-between">
-        <span className="text-slate-700">Conversion Rate</span>
+        <span className="text-slate-700 dark:text-slate-300">Conversion Rate</span>
         <span className="text-purple-600 font-medium">+24%</span>
       </div>
     </div>
@@ -510,44 +511,44 @@ export default function Page() {
           </div>
         </div>
       </div>
-    </section><section className="relative md:py-20 bg-neutral-50 pt-16 pb-16">
-  <div className="absolute inset-0 -z-10 bg-gradient-to-r from-neutral-100 to-white"></div>
+    </section><section className="relative md:py-20 bg-neutral-50 dark:bg-neutral-900 pt-16 pb-16">
+  <div className="absolute inset-0 -z-10 bg-gradient-to-r from-neutral-100 to-white dark:from-neutral-800 dark:to-neutral-900"></div>
   <div className="max-w-7xl mx-auto px-6">
     <div className="text-center max-w-3xl mx-auto mb-12">
-      <h2 className="text-3xl sm:text-4xl font-medium tracking-tight text-neutral-900">Pricing plans — <span className="font-normal italic font-instrument-serif">for every team</span></h2>
-      <p className="mt-3 text-neutral-600">Transparent pricing for startups to enterprises, with room to scale as you grow.</p>
+      <h2 className="text-3xl sm:text-4xl font-medium tracking-tight text-neutral-900 dark:text-white">Pricing plans — <span className="font-normal italic font-instrument-serif">for every team</span></h2>
+      <p className="mt-3 text-neutral-600 dark:text-neutral-400">Transparent pricing for startups to enterprises, with room to scale as you grow.</p>
     </div>
 
     <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
       {/* Basic */}
-      <div className="relative rounded-2xl border border-neutral-200 bg-gradient-to-b from-emerald-50/60 to-white p-8 shadow-sm hover:shadow-lg transition-shadow">
-        <span className="inline-flex items-center rounded-full bg-emerald-50 px-3 py-1 text-xs font-medium text-emerald-800">Starter</span>
+      <div className="relative rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-gradient-to-b from-emerald-50/60 to-white dark:from-neutral-900 dark:to-neutral-800 p-8 shadow-sm hover:shadow-lg transition-shadow">
+        <span className="inline-flex items-center rounded-full bg-emerald-50 dark:bg-emerald-900 px-3 py-1 text-xs font-medium text-emerald-800 dark:text-emerald-300">Starter</span>
         <div className="mt-6">
           <div className="">
-            <div className="text-4xl font-medium tracking-tight text-neutral-900">$1250<span className="ml-1 text-neutral-600 text-base italic font-normal">/month</span></div>
-            <p className="mt-2 text-sm text-neutral-600">Best for small one‑off projects and quick experiments.</p>
+            <div className="text-4xl font-medium tracking-tight text-neutral-900 dark:text-white">$1250<span className="ml-1 text-neutral-600 dark:text-neutral-400 text-base italic font-normal">/month</span></div>
+            <p className="mt-2 text-sm text-neutral-600 dark:text-neutral-400">Best for small one‑off projects and quick experiments.</p>
           </div>
           <ul className="mt-6 space-y-3 text-sm">
             <li className="flex items-center gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path d="M20 6 9 17l-5-5"></path></svg>
-              <span className="text-neutral-700">2 social media platforms</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-emerald-600 dark:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path d="M20 6 9 17l-5-5"></path></svg>
+              <span className="text-neutral-700 dark:text-neutral-300">2 social media platforms</span>
             </li>
             <li className="flex items-center gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path d="M20 6 9 17l-5-5"></path></svg>
-              <span className="text-neutral-700">Essential SEO</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-emerald-600 dark:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path d="M20 6 9 17l-5-5"></path></svg>
+              <span className="text-neutral-700 dark:text-neutral-300">Essential SEO</span>
             </li>
             <li className="flex items-center gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path d="M20 6 9 17l-5-5"></path></svg>
-              <span className="text-neutral-700">Monthly report</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-emerald-600 dark:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path d="M20 6 9 17l-5-5"></path></svg>
+              <span className="text-neutral-700 dark:text-neutral-300">Monthly report</span>
             </li>
           </ul>
-          <a href="#" className="mt-8 w-full inline-flex items-center justify-center rounded-full border border-emerald-300 px-6 py-3 text-sm font-medium text-neutral-800 hover:bg-emerald-50 transition">
+          <a href="#" className="mt-8 w-full inline-flex items-center justify-center rounded-full border border-emerald-300 dark:border-emerald-700 px-6 py-3 text-sm font-medium text-neutral-800 dark:text-white hover:bg-emerald-50 dark:hover:bg-emerald-900 transition">
             Choose Starter
           </a>
         </div>
       </div>
 
-      {/* Standard (featured) */}
+      {/* Standard (featured) is already dark */}
       <div className="relative rounded-2xl border-2 border-emerald-900 bg-emerald-900 p-8 shadow-lg">
         <span className="inline-flex items-center rounded-full bg-emerald-800 px-3 py-1 text-xs font-medium text-emerald-100">Growth</span>
         <div className="mt-6 text-white">
@@ -580,32 +581,32 @@ export default function Page() {
       </div>
 
       {/* Premium */}
-      <div className="relative rounded-2xl border border-neutral-200 bg-gradient-to-b from-white to-emerald-50/40 p-8 shadow-sm hover:shadow-lg transition-shadow">
-        <span className="inline-flex items-center rounded-full bg-emerald-50 px-3 py-1 text-xs font-medium text-emerald-800">Scale</span>
+      <div className="relative rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-gradient-to-b from-white to-emerald-50/40 dark:from-neutral-900 dark:to-neutral-800 p-8 shadow-sm hover:shadow-lg transition-shadow">
+        <span className="inline-flex items-center rounded-full bg-emerald-50 dark:bg-emerald-900 px-3 py-1 text-xs font-medium text-emerald-800 dark:text-emerald-300">Scale</span>
         <div className="mt-6">
           <div className="">
-            <div className="text-4xl font-medium tracking-tight text-neutral-900">$5900<span className="ml-1 text-neutral-600 text-base italic font-normal">/month</span></div>
-            <p className="mt-2 text-sm text-neutral-600">Dedicated, ongoing partnership for complex, multi‑channel programs.</p>
+            <div className="text-4xl font-medium tracking-tight text-neutral-900 dark:text-white">$5900<span className="ml-1 text-neutral-600 dark:text-neutral-400 text-base italic font-normal">/month</span></div>
+            <p className="mt-2 text-sm text-neutral-600 dark:text-neutral-400">Dedicated, ongoing partnership for complex, multi‑channel programs.</p>
           </div>
           <ul className="mt-6 space-y-3 text-sm">
             <li className="flex items-center gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path d="M20 6 9 17l-5-5"></path></svg>
-              <span className="text-neutral-700">Full‑service, multi‑channel marketing</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-emerald-600 dark:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path d="M20 6 9 17l-5-5"></path></svg>
+              <span className="text-neutral-700 dark:text-neutral-300">Full‑service, multi‑channel marketing</span>
             </li>
             <li className="flex items-center gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path d="M20 6 9 17l-5-5"></path></svg>
-              <span className="text-neutral-700">Advanced SEO + content strategy</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-emerald-600 dark:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path d="M20 6 9 17l-5-5"></path></svg>
+              <span className="text-neutral-700 dark:text-neutral-300">Advanced SEO + content strategy</span>
             </li>
             <li className="flex items-center gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-emerald-600" fill="none" viewBox="0 0 24 " stroke="currentColor" strokeWidth="2"><path d="M20 6 9 17l-5-5"></path></svg>
-              <span className="text-neutral-700">Lifecycle email &amp; CRM</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-emerald-600 dark:text-emerald-400" fill="none" viewBox="0 0 24 " stroke="currentColor" strokeWidth="2"><path d="M20 6 9 17l-5-5"></path></svg>
+              <span className="text-neutral-700 dark:text-neutral-300">Lifecycle email &amp; CRM</span>
             </li>
             <li className="flex items-center gap-3">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path d="M20 6 9 17l-5-5"></path></svg>
-              <span className="text-neutral-700">Dedicated account team</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-emerald-600 dark:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path d="M20 6 9 17l-5-5"></path></svg>
+              <span className="text-neutral-700 dark:text-neutral-300">Dedicated account team</span>
             </li>
           </ul>
-          <a href="#" className="mt-8 w-full inline-flex items-center justify-center rounded-full border border-emerald-300 px-6 py-3 text-sm font-medium text-neutral-800 hover:bg-emerald-50 transition">
+          <a href="#" className="mt-8 w-full inline-flex items-center justify-center rounded-full border border-emerald-300 dark:border-emerald-700 px-6 py-3 text-sm font-medium text-neutral-800 dark:text-white hover:bg-emerald-50 dark:hover:bg-emerald-900 transition">
             Choose Scale
           </a>
         </div>
@@ -613,55 +614,55 @@ export default function Page() {
     </div>
 
     <div className="mt-12 text-center">
-      <p className="text-sm text-neutral-600">Simple, flexible plans. Cancel anytime.</p>
+      <p className="text-sm text-neutral-600 dark:text-neutral-400">Simple, flexible plans. Cancel anytime.</p>
     </div>
   </div>
-</section><section className="py-16 md:py-20 bg-white">
+</section><section className="py-16 md:py-20 bg-white dark:bg-black">
   <div className="max-w-4xl mx-auto px-6">
     <div className="text-center mb-12">
-      <h2 className="sm:text-4xl text-3xl font-medium text-neutral-900 tracking-tight">Frequently asked — <span className="font-normal italic font-instrument-serif">questions</span></h2>
-      <p className="mt-3 text-neutral-600">Everything you need to know about working with NOVA.</p>
+      <h2 className="sm:text-4xl text-3xl font-medium text-neutral-900 dark:text-white tracking-tight">Frequently asked — <span className="font-normal italic font-instrument-serif">questions</span></h2>
+      <p className="mt-3 text-neutral-600 dark:text-neutral-400">Everything you need to know about working with NOVA.</p>
     </div>
 
     <div className="space-y-6">
-      <div className="border border-neutral-200 rounded-2xl p-6 hover:shadow-sm transition-shadow">
-        <h3 className="text-lg font-semibold text-neutral-900 mb-3">How does the subscription model work?</h3>
-        <p className="text-neutral-600 text-sm leading-relaxed">Our subscription model gives you access to our full design and development team for a flat monthly rate. You can request unlimited projects, pause or cancel anytime, and get consistent quality without the overhead of hiring in-house talent.</p>
+      <div className="border border-neutral-200 dark:border-neutral-800 rounded-2xl p-6 hover:shadow-sm transition-shadow">
+        <h3 className="text-lg font-semibold text-neutral-900 dark:text-white mb-3">How does the subscription model work?</h3>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm leading-relaxed">Our subscription model gives you access to our full design and development team for a flat monthly rate. You can request unlimited projects, pause or cancel anytime, and get consistent quality without the overhead of hiring in-house talent.</p>
       </div>
 
-      <div className="border border-neutral-200 rounded-2xl p-6 hover:shadow-sm transition-shadow">
-        <h3 className="text-lg font-semibold text-neutral-900 mb-3">What's included in each plan?</h3>
-        <p className="text-neutral-600 text-sm leading-relaxed">Each plan includes different levels of service intensity. Starter focuses on core design work, Pro adds development and systems thinking, while Scale provides dedicated team resources and growth optimization. All plans include project management, regular communication, and our proven process.</p>
+      <div className="border border-neutral-200 dark:border-neutral-800 rounded-2xl p-6 hover:shadow-sm transition-shadow">
+        <h3 className="text-lg font-semibold text-neutral-900 dark:text-white mb-3">What's included in each plan?</h3>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm leading-relaxed">Each plan includes different levels of service intensity. Starter focuses on core design work, Pro adds development and systems thinking, while Scale provides dedicated team resources and growth optimization. All plans include project management, regular communication, and our proven process.</p>
       </div>
 
-      <div className="border border-neutral-200 rounded-2xl p-6 hover:shadow-sm transition-shadow">
-        <h3 className="text-lg font-semibold text-neutral-900 mb-3">How quickly will I receive my designs?</h3>
-        <p className="text-neutral-600 text-sm leading-relaxed">Most requests are completed within 2-3 business days on average. Complex requests may take longer, but we'll always communicate timelines upfront. Our response times vary by plan, from 48 hours (Starter) to 12 hours (Scale) for initial feedback and updates.</p>
+      <div className="border border-neutral-200 dark:border-neutral-800 rounded-2xl p-6 hover:shadow-sm transition-shadow">
+        <h3 className="text-lg font-semibold text-neutral-900 dark:text-white mb-3">How quickly will I receive my designs?</h3>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm leading-relaxed">Most requests are completed within 2-3 business days on average. Complex requests may take longer, but we'll always communicate timelines upfront. Our response times vary by plan, from 48 hours (Starter) to 12 hours (Scale) for initial feedback and updates.</p>
       </div>
 
-      <div className="border border-neutral-200 rounded-2xl p-6 hover:shadow-sm transition-shadow">
-        <h3 className="text-lg font-semibold text-neutral-900 mb-3">What if I don't like the work?</h3>
-        <p className="text-neutral-600 text-sm leading-relaxed">We'll continue to revise the design until you're 100% satisfied. Our process includes regular check-ins and feedback loops to ensure we're aligned on direction. If you're ever unsatisfied, we offer a full refund for your first month.</p>
+      <div className="border border-neutral-200 dark:border-neutral-800 rounded-2xl p-6 hover:shadow-sm transition-shadow">
+        <h3 className="text-lg font-semibold text-neutral-900 dark:text-white mb-3">What if I don't like the work?</h3>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm leading-relaxed">We'll continue to revise the design until you're 100% satisfied. Our process includes regular check-ins and feedback loops to ensure we're aligned on direction. If you're ever unsatisfied, we offer a full refund for your first month.</p>
       </div>
 
-      <div className="border border-neutral-200 rounded-2xl p-6 hover:shadow-sm transition-shadow">
-        <h3 className="text-lg font-semibold text-neutral-900 mb-3">Can I pause my subscription?</h3>
-        <p className="text-neutral-600 text-sm leading-relaxed">Absolutely. You can pause your subscription at any time and resume when ready. Paused time doesn't count toward your billing cycle, so you only pay for the time you're actively using our services.</p>
+      <div className="border border-neutral-200 dark:border-neutral-800 rounded-2xl p-6 hover:shadow-sm transition-shadow">
+        <h3 className="text-lg font-semibold text-neutral-900 dark:text-white mb-3">Can I pause my subscription?</h3>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm leading-relaxed">Absolutely. You can pause your subscription at any time and resume when ready. Paused time doesn't count toward your billing cycle, so you only pay for the time you're actively using our services.</p>
       </div>
 
-      <div className="border border-neutral-200 rounded-2xl p-6 hover:shadow-sm transition-shadow">
-        <h3 className="text-lg font-semibold text-neutral-900 mb-3">Do you work with existing design systems?</h3>
-        <p className="text-neutral-600 text-sm leading-relaxed">Yes! We're experienced working within existing design systems and brand guidelines. We can also help evolve and improve your current system, or create a new one from scratch if needed.</p>
+      <div className="border border-neutral-200 dark:border-neutral-800 rounded-2xl p-6 hover:shadow-sm transition-shadow">
+        <h3 className="text-lg font-semibold text-neutral-900 dark:text-white mb-3">Do you work with existing design systems?</h3>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm leading-relaxed">Yes! We're experienced working within existing design systems and brand guidelines. We can also help evolve and improve your current system, or create a new one from scratch if needed.</p>
       </div>
 
-      <div className="border border-neutral-200 rounded-2xl p-6 hover:shadow-sm transition-shadow">
-        <h3 className="text-lg font-semibold text-neutral-900 mb-3">What tools do you use?</h3>
-        <p className="text-neutral-600 text-sm leading-relaxed">We primarily use Figma for design work, React/Next.js for development, and integrate with your existing tools like Slack, Linear, or Notion. We're flexible and can adapt to your team's preferred workflow and toolchain.</p>
+      <div className="border border-neutral-200 dark:border-neutral-800 rounded-2xl p-6 hover:shadow-sm transition-shadow">
+        <h3 className="text-lg font-semibold text-neutral-900 dark:text-white mb-3">What tools do you use?</h3>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm leading-relaxed">We primarily use Figma for design work, React/Next.js for development, and integrate with your existing tools like Slack, Linear, or Notion. We're flexible and can adapt to your team's preferred workflow and toolchain.</p>
       </div>
     </div>
 
     <div className="mt-12 text-center">
-      <p className="text-neutral-600 mb-4">Still have questions?</p>
+      <p className="text-neutral-600 dark:text-neutral-400 mb-4">Still have questions?</p>
       <a href="#" className="inline-flex items-center gap-2 rounded-full bg-neutral-900 text-white px-5 py-3 text-sm font-medium hover:bg-black transition">
         Get in touch
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
@@ -670,10 +671,10 @@ export default function Page() {
   </div>
 </section>
 
-    {/* CTA */}
+    {/* CTA - This section has an image background, so it should be fine. */}
     <section className="py-14">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="relative overflow-hidden rounded-3xl border border-neutral-200">
+        <div className="relative overflow-hidden rounded-3xl border border-neutral-200 dark:border-neutral-800">
           <img src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/1e4989cc-80c7-45b1-9eb3-3f72b473d778_1600w.jpg" alt="mountain minimal" className="absolute inset-0 h-full w-full object-cover"/>
           <div className="relative bg-black/40">
             <div className="px-8 py-16 sm:px-12 sm:py-20">
@@ -698,9 +699,9 @@ export default function Page() {
     </section>
 
     {/* Footer */}
-    <footer className="bg-white border-neutral-200 border-t pt-10 pb-10">
+    <footer className="bg-white dark:bg-black border-neutral-200 dark:border-neutral-800 border-t pt-10 pb-10">
   <div className="max-w-7xl mx-auto px-6">
-    <div className="sm:p-8 bg-gradient-to-r from-neutral-100 to-white border-neutral-200 border rounded-3xl pt-6 pr-6 pb-6 pl-6">
+    <div className="sm:p-8 bg-gradient-to-r from-neutral-100 to-white dark:from-neutral-900 dark:to-black border-neutral-200 dark:border-neutral-800 border rounded-3xl pt-6 pr-6 pb-6 pl-6">
   <div className="grid md:grid-cols-2 gap-10">
     {/* Left: Brand, copy, social */}
     <div className="">
@@ -708,53 +709,53 @@ export default function Page() {
         <span className="inline-flex h-8 w-8 rounded-full bg-neutral-900 items-center justify-center text-white">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="triangle" className="lucide lucide-triangle h-4 w-4"><path d="M13.73 4a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path></svg>
         </span>
-        <span className="text-lg font-semibold tracking-tight">NOVA</span>
+        <span className="text-lg font-semibold tracking-tight dark:text-white">NOVA</span>
       </div>
-      <p className="mt-3 text-sm text-neutral-600 font-sans">
+      <p className="mt-3 text-sm text-neutral-600 dark:text-neutral-400 font-sans">
         We empower modern businesses to transform their digital presence. From innovative web applications to strategic growth initiatives, we deliver cutting-edge solutions that align with your vision. Our expert team is committed to providing exceptional service that accelerates your success.
       </p>
 
       <ul className="mt-6 space-y-2">
         <li className="">
-          <a href="#" className="flex items-center justify-between border-b border-neutral-200 py-3 text-sm">
-            <span className="flex items-center gap-3 text-neutral-800">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="facebook" className="lucide lucide-facebook h-4 w-4 text-neutral-600"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+          <a href="#" className="flex items-center justify-between border-b border-neutral-200 dark:border-neutral-800 py-3 text-sm">
+            <span className="flex items-center gap-3 text-neutral-800 dark:text-neutral-300">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="facebook" className="lucide lucide-facebook h-4 w-4 text-neutral-600 dark:text-neutral-400"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
               Facebook
             </span>
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="arrow-right" className="lucide lucide-arrow-right h-4 w-4 text-neutral-500"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
           </a>
         </li>
         <li className="">
-          <a href="#" className="flex items-center justify-between border-b border-neutral-200 py-3 text-sm">
-            <span className="flex items-center gap-3 text-neutral-800">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="instagram" className="lucide lucide-instagram h-4 w-4 text-neutral-600"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+          <a href="#" className="flex items-center justify-between border-b border-neutral-200 dark:border-neutral-800 py-3 text-sm">
+            <span className="flex items-center gap-3 text-neutral-800 dark:text-neutral-300">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="instagram" className="lucide lucide-instagram h-4 w-4 text-neutral-600 dark:text-neutral-400"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
               Instagram
             </span>
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="arrow-right" className="lucide lucide-arrow-right h-4 w-4 text-neutral-500"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
           </a>
         </li>
         <li className="">
-          <a href="#" className="flex items-center justify-between border-b border-neutral-200 py-3 text-sm">
-            <span className="flex items-center gap-3 text-neutral-800">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="linkedin" className="lucide lucide-linkedin h-4 w-4 text-neutral-600"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          <a href="#" className="flex items-center justify-between border-b border-neutral-200 dark:border-neutral-800 py-3 text-sm">
+            <span className="flex items-center gap-3 text-neutral-800 dark:text-neutral-300">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="linkedin" className="lucide lucide-linkedin h-4 w-4 text-neutral-600 dark:text-neutral-400"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
               LinkedIn
             </span>
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="arrow-right" className="lucide lucide-arrow-right h-4 w-4 text-neutral-500"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
           </a>
         </li>
         <li className="">
-          <a href="#" className="flex items-center justify-between border-b border-neutral-200 py-3 text-sm">
-            <span className="flex items-center gap-3 text-neutral-800">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="twitter" className="lucide lucide-twitter h-4 w-4 text-neutral-600"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+          <a href="#" className="flex items-center justify-between border-b border-neutral-200 dark:border-neutral-800 py-3 text-sm">
+            <span className="flex items-center gap-3 text-neutral-800 dark:text-neutral-300">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="twitter" className="lucide lucide-twitter h-4 w-4 text-neutral-600 dark:text-neutral-400"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
               Twitter
             </span>
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="arrow-right" className="lucide lucide-arrow-right h-4 w-4 text-neutral-500"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
           </a>
         </li>
         <li className="">
-          <a href="#" className="flex items-center justify-between border-b border-neutral-200 py-3 text-sm">
-            <span className="flex items-center gap-3 text-neutral-800">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="youtube" className="lucide lucide-youtube h-4 w-4 text-neutral-600"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"></path><path d="m10 15 5-3-5-3z"></path></svg>
+          <a href="#" className="flex items-center justify-between border-b border-neutral-200 dark:border-neutral-800 py-3 text-sm">
+            <span className="flex items-center gap-3 text-neutral-800 dark:text-neutral-300">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="youtube" className="lucide lucide-youtube h-4 w-4 text-neutral-600 dark:text-neutral-400"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"></path><path d="m10 15 5-3-5-3z"></path></svg>
               YouTube
             </span>
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="arrow-right" className="lucide lucide-arrow-right h-4 w-4 text-neutral-500"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
@@ -765,50 +766,50 @@ export default function Page() {
 
     {/* Right: Newsletter + links */}
     <div className="NewsletterSection mt-12.5">
-      <p className="text-sm font-medium text-neutral-800 font-sans">Join our innovation newsletter</p>
+      <p className="text-sm font-medium text-neutral-800 dark:text-neutral-300 font-sans">Join our innovation newsletter</p>
       <form className="mt-3">
         <label htmlFor="footer-email" className="sr-only">Email address</label>
         <div className="flex items-center gap-3 sm:max-w-sm">
-          <input id="footer-email" type="email" placeholder="Your email address" className="flex-1 rounded-full border border-neutral-300 bg-white px-5 py-2.5 text-sm placeholder-neutral-500 focus:outline-none"/>
+          <input id="footer-email" type="email" placeholder="Your email address" className="flex-1 rounded-full border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-800 px-5 py-2.5 text-sm placeholder-neutral-500 focus:outline-none"/>
           <button type="button" className="inline-flex items-center rounded-full bg-neutral-900 text-white px-5 py-2.5 text-sm font-medium hover:bg-black">
-            Subsribe
+            Subscribes
           </button>
         </div>
       </form>
 
       <ul className="mt-6 space-y-2">
         <li className="">
-          <a href="#" className="flex items-center justify-between border-b border-neutral-200 py-3 text-sm text-neutral-800">
+          <a href="#" className="flex items-center justify-between border-b border-neutral-200 dark:border-neutral-800 py-3 text-sm text-neutral-800 dark:text-neutral-300">
             Solutions
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="arrow-right" className="lucide lucide-arrow-right h-4 w-4 text-neutral-500"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
           </a>
         </li>
         <li>
-          <a href="#" className="flex items-center justify-between border-b border-neutral-200 py-3 text-sm text-neutral-800">
+          <a href="#" className="flex items-center justify-between border-b border-neutral-200 dark:border-neutral-800 py-3 text-sm text-neutral-800 dark:text-neutral-300">
             Portfolio
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="arrow-right" className="lucide lucide-arrow-right h-4 w-4 text-neutral-500"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
           </a>
         </li>
         <li className="">
-          <a href="#" className="flex items-center justify-between border-b border-neutral-200 py-3 text-sm text-neutral-800">
+          <a href="#" className="flex items-center justify-between border-b border-neutral-200 dark:border-neutral-800 py-3 text-sm text-neutral-800 dark:text-neutral-300">
             Our Story
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="arrow-right" className="lucide lucide-arrow-right h-4 w-4 text-neutral-500"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
           </a>
         </li>
         <li className="">
-          <a href="#" className="flex items-center justify-between border-b border-neutral-200 py-3 text-sm text-neutral-800">
+          <a href="#" className="flex items-center justify-between border-b border-neutral-200 dark:border-neutral-800 py-3 text-sm text-neutral-800 dark:text-neutral-300">
             Insights
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="arrow-right" className="lucide lucide-arrow-right h-4 w-4 text-neutral-500"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
           </a>
         </li>
         <li className="">
-          <a href="#" className="flex items-center justify-between border-b border-neutral-200 py-3 text-sm text-neutral-800">
+          <a href="#" className="flex items-center justify-between border-b border-neutral-200 dark:border-neutral-800 py-3 text-sm text-neutral-800 dark:text-neutral-300">
             Plans
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="arrow-right" className="lucide lucide-arrow-right h-4 w-4 text-neutral-500"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-            
     </a>
-    <p className="text-neutral-600 text-sm font-sans py-5">© <span id="year" className="font-sans">2025</span> NEXUS. All rights reserved.</p>
-  </li></ul></div>
+  </li></ul>
+   <p className="text-neutral-600 dark:text-neutral-400 font-sans py-5 text-sm">© <span id="year" className="font-sans">2025</span> NEXUS. All rights reserved.</p>
+  </div>
 </div></div>
   </div>
 </footer>
