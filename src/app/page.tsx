@@ -192,173 +192,175 @@ export default function Page() {
       <main>
    
     {/* Feature section */}
-      <section className="relative isolate z-10 overflow-hidden rounded-3xl mt-4 mr-6 mb-4 ml-6 border border-black/10 px-6">
+      <section className="relative isolate z-10 overflow-hidden rounded-3xl mt-4 mb-4 mx-4 md:mx-6 border border-black/10">
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-emerald-100 to-lime-100"></div>
-      <div className="relative z-10 max-w-7xl md:py-20 mr-auto ml-auto pt-16 pr-6 pb-16 pl-6">
-        <div className="grid md:grid-cols-2 gap-10 items-center">
-          <div className="FeatureMain">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium text-neutral-900 tracking-tight break-words" style={{}}>Turn bold ideas into products — <span className="font-normal italic font-instrument-serif" style={{}}>growth without the noise</span></h1>
-            <p className="mt-5 text-neutral-700 leading-relaxed font-sans">
-              We partner with ambitious teams to craft delightful interfaces, validate quickly, and scale with data-backed decisions.
+      <div className="py-16 md:py-20 break-words">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            <div className="grid md:grid-cols-2 gap-10 items-center">
+            <div className="FeatureMain">
+                <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium text-neutral-900 tracking-tight break-words" style={{}}>Turn bold ideas into products — <span className="font-normal italic font-instrument-serif" style={{}}>growth without the noise</span></h1>
+                <p className="mt-5 text-neutral-700 leading-relaxed font-sans text-sm sm:text-base">
+                We partner with ambitious teams to craft delightful interfaces, validate quickly, and scale with data-backed decisions.
+                </p>
+                <div className="mt-8 flex flex-wrap items-center gap-3">
+                <a href="#" className="inline-flex items-center gap-2 hover:bg-black transition text-sm font-medium text-white bg-neutral-900 rounded-full pt-3 pr-6 pb-3 pl-6">
+                    
+                    Get started
+                </a>
+                <a href="#" className="inline-flex items-center gap-2 hover:bg-white/60 transition text-sm font-medium border-black/10 border rounded-full pt-3 pr-6 pb-3 pl-6">
+                    
+                    See our work
+                </a>
+                </div><div className="mt-8 space-y-6">
+    <div className="flex items-start gap-4">
+        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center mt-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-600">
+            <polyline points="20 6 9 17 5 11"></polyline>
+        </svg>
+        </div>
+        <div>
+        <h4 className="text-base font-semibold text-neutral-900 mb-1">Design-First Approach</h4>
+        <p className="text-xs sm:text-sm text-neutral-600 leading-relaxed">We start with deep user research and strategic thinking before touching any pixels. Every interface decision is backed by data and user insights.</p>
+        </div>
+    </div>
+
+    <div className="flex items-start gap-4">
+        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center mt-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-600">
+            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+        </svg>
+        </div>
+        <div className="">
+        <h4 className="text-base font-semibold text-neutral-900 mb-1">Growth-Driven Results</h4>
+        <p className="text-xs sm:text-sm text-neutral-600 leading-relaxed">Our designs don't just look beautiful—they convert. We optimize for key metrics like user engagement, retention, and revenue growth.</p>
+        </div>
+    </div>
+
+    <div className="flex items-start gap-4">
+        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center mt-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-600">
+            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+        </svg>
+        </div>
+        <div className="">
+        <h4 className="text-base font-semibold text-neutral-900 mb-1">Lightning-Fast Delivery</h4>
+        <p className="text-xs sm:text-sm text-neutral-600 leading-relaxed">Ship features in days, not months. Our streamlined process and experienced team means you get professional results without the typical agency overhead.</p>
+        </div>
+    </div>
+    </div>
+
+                {/* Client love */}
+                
+            </div>
+
+            {/* Product demo card */}
+            <div className="relative">
+                <article className="group relative w-full overflow-hidden transition-shadow hover:shadow-md shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] bg-neutral-900 border-neutral-800 border rounded-3xl">
+    <div className="sm:p-8 pt-6 pr-6 pb-6 pl-6">
+        <div className="relative h-56 sm:h-64 rounded-2xl bg-neutral-900 ring-1 ring-inset ring-white/5 overflow-hidden">
+        <svg className="absolute inset-0 h-full w-full text-neutral-800" aria-hidden="true">
+            <defs>
+            <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+                <path d="M24 0H0V24" fill="none" stroke="currentColor" strokeWidth="1"></path>
+            </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#grid)" className=""></rect>
+        </svg>
+        <span className="absolute left-6 top-4 h-0.5 w-10 rounded bg-sky-500"></span>
+        <div className="absolute right-6 top-8 sm:right-10 sm:top-10 w-[78%] rounded-2xl border border-neutral-800 bg-neutral-900 shadow-lg">
+            <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800">
+            <span className="h-2.5 w-2.5 rounded-full bg-neutral-800"></span>
+            <span className="h-2.5 w-2.5 rounded-full bg-neutral-800"></span>
+            <span className="h-2.5 w-2.5 rounded-full bg-neutral-800"></span>
+            <div className="ml-3 h-2 w-24 rounded bg-neutral-800"></div>
+            </div>
+            <div className="grid grid-cols-3 gap-3 p-4">
+            <div className="col-span-2 rounded-lg border border-neutral-800 overflow-hidden">
+                <img src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/ca446c1b-d6e1-4316-9864-4d6306b13cf4_800w.jpg" alt="Minimal 3D render" className="h-28 w-full object-cover"/>
+            </div>
+            <div className="rounded-lg border border-neutral-800 overflow-hidden">
+                <img src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/7e430a8d-376b-4aba-8993-1350529e5946_800w.jpg" alt="Mountain landscape" className="h-28 w-full object-cover"/>
+            </div>
+            <div className="rounded-lg border border-neutral-800 bg-neutral-900 h-24"></div>
+            <div className="rounded-lg border border-neutral-800 bg-neutral-900 h-24"></div>
+            <div className="rounded-lg border border-neutral-800 bg-neutral-900 h-24"></div>
+            </div>
+        </div>
+        </div>
+        <div className="sm:mt-8 mt-6">
+    <div className="flex items-center gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-neutral-400">
+        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" className=""></path>
+        <circle cx="12" cy="12" r="4"></circle>
+        </svg>
+        <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-neutral-100">Data-Driven Growth Engine</h3>
+    </div>
+    <p className="mt-3 text-neutral-400 text-xs sm:text-sm">Transform your product metrics with our proven design systems and growth optimization framework that scales with ambitious teams.</p>
+    <div className="mt-4">
+        <a href="#" className="inline-flex items-center gap-2 text-xs font-medium text-neutral-100 hover:text-neutral-300">
+        See growth results
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
+            <path d="M5 12h14"></path>
+            <path d="m12 5 7 7-7 7"></path>
+        </svg>
+        </a>
+    </div>
+    </div>
+    </div>
+    </article>
+                {/* Sub card */}
+                <div className="relative w-full max-w-xl mt-8">
+    <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-[calc(100%-3rem)] h-9 shadow-[0_6px_20px_rgba(16,185,129,0.25)] bg-emerald-900/10 rounded-2xl"></div>
+    <article className="relative overflow-hidden ring-1 ring-white/15 text-white bg-gradient-to-r from-emerald-600 to-green-600 rounded-2xl shadow-2xl">
+        <div className="pointer-events-none absolute inset-x-0 -top-10 h-24 bg-gradient-to-b from-white/40 to-transparent"></div>
+        <div className="sm:p-5 pt-4 pr-4 pb-4 pl-4">
+        <div className="flex items-start gap-3">
+            <div className="shrink-0 rounded-xl bg-gradient-to-b from-slate-900 to-slate-800 p-2.5 ring-1 ring-white/10 shadow-md">
+            <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" className=""></path>
+            </svg>
+            </div>
+            <div className="min-w-0 flex-1">
+            <div className="flex items-start justify-between gap-3">
+                <h3 className="text-[15px] sm:text-base font-semibold tracking-tight truncate">Growth Opportunity: Sustainability Focus</h3>
+                <span className="text-xs sm:text-sm text-white/85 shrink-0">2m ago</span>
+            </div>
+            <p className="mt-1 text-xs sm:text-sm leading-6 text-white/90">
+                Consider highlighting your eco-friendly practices and sustainable approach. This resonates strongly with modern consumers and builds trust.
             </p>
-            <div className="mt-8 flex flex-wrap items-center gap-3">
-              <a href="#" className="inline-flex items-center gap-2 hover:bg-black transition text-sm font-medium text-white bg-neutral-900 rounded-full pt-3 pr-6 pb-3 pl-6">
-                
-                Get started
-              </a>
-              <a href="#" className="inline-flex items-center gap-2 hover:bg-white/60 transition text-sm font-medium border-black/10 border rounded-full pt-3 pr-6 pb-3 pl-6">
-                
-                See our work
-              </a>
-            </div><div className="mt-8 space-y-6">
-  <div className="flex items-start gap-4">
-    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center mt-1">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-600">
-        <polyline points="20 6 9 17 5 11"></polyline>
-      </svg>
+            </div>
+        </div>
+        </div>
+    </article>
     </div>
-    <div>
-      <h4 className="text-base font-semibold text-neutral-900 mb-1">Design-First Approach</h4>
-      <p className="text-sm text-neutral-600 leading-relaxed">We start with deep user research and strategic thinking before touching any pixels. Every interface decision is backed by data and user insights.</p>
     </div>
-  </div>
+            </div>
 
-  <div className="flex items-start gap-4">
-    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center mt-1">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-600">
-        <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-      </svg>
-    </div>
-    <div className="">
-      <h4 className="text-base font-semibold text-neutral-900 mb-1">Growth-Driven Results</h4>
-      <p className="text-sm text-neutral-600 leading-relaxed">Our designs don't just look beautiful—they convert. We optimize for key metrics like user engagement, retention, and revenue growth.</p>
-    </div>
-  </div>
-
-  <div className="flex items-start gap-4">
-    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center mt-1">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-600">
-        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
-      </svg>
-    </div>
-    <div className="">
-      <h4 className="text-base font-semibold text-neutral-900 mb-1">Lightning-Fast Delivery</h4>
-      <p className="text-sm text-neutral-600 leading-relaxed">Ship features in days, not months. Our streamlined process and experienced team means you get professional results without the typical agency overhead.</p>
-    </div>
-  </div>
-</div>
-
-            {/* Client love */}
-            
-          </div>
-
-          {/* Product demo card */}
-          <div className="relative">
-            <article className="group relative w-full overflow-hidden transition-shadow hover:shadow-md shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] bg-neutral-900 border-neutral-800 border rounded-3xl">
-  <div className="sm:p-8 pt-6 pr-6 pb-6 pl-6">
-    <div className="relative h-56 sm:h-64 rounded-2xl bg-neutral-900 ring-1 ring-inset ring-white/5 overflow-hidden">
-      <svg className="absolute inset-0 h-full w-full text-neutral-800" aria-hidden="true">
-        <defs>
-          <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-            <path d="M24 0H0V24" fill="none" stroke="currentColor" strokeWidth="1"></path>
-          </pattern>
-        </defs>
-        <rect width="100%" height="100%" fill="url(#grid)" className=""></rect>
-      </svg>
-      <span className="absolute left-6 top-4 h-0.5 w-10 rounded bg-sky-500"></span>
-      <div className="absolute right-6 top-8 sm:right-10 sm:top-10 w-[78%] rounded-2xl border border-neutral-800 bg-neutral-900 shadow-lg">
-        <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800">
-          <span className="h-2.5 w-2.5 rounded-full bg-neutral-800"></span>
-          <span className="h-2.5 w-2.5 rounded-full bg-neutral-800"></span>
-          <span className="h-2.5 w-2.5 rounded-full bg-neutral-800"></span>
-          <div className="ml-3 h-2 w-24 rounded bg-neutral-800"></div>
-        </div>
-        <div className="grid grid-cols-3 gap-3 p-4">
-          <div className="col-span-2 rounded-lg border border-neutral-800 overflow-hidden">
-            <img src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/ca446c1b-d6e1-4316-9864-4d6306b13cf4_800w.jpg" alt="Minimal 3D render" className="h-28 w-full object-cover"/>
-          </div>
-          <div className="rounded-lg border border-neutral-800 overflow-hidden">
-            <img src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/7e430a8d-376b-4aba-8993-1350529e5946_800w.jpg" alt="Mountain landscape" className="h-28 w-full object-cover"/>
-          </div>
-          <div className="rounded-lg border border-neutral-800 bg-neutral-900 h-24"></div>
-          <div className="rounded-lg border border-neutral-800 bg-neutral-900 h-24"></div>
-          <div className="rounded-lg border border-neutral-800 bg-neutral-900 h-24"></div>
-        </div>
-      </div>
-    </div>
-    <div className="sm:mt-8 mt-6">
-  <div className="flex items-center gap-3">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-neutral-400">
-      <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" className=""></path>
-      <circle cx="12" cy="12" r="4"></circle>
-    </svg>
-    <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-neutral-100">Data-Driven Growth Engine</h3>
-  </div>
-  <p className="mt-3 text-neutral-400 text-sm">Transform your product metrics with our proven design systems and growth optimization framework that scales with ambitious teams.</p>
-  <div className="mt-4">
-    <a href="#" className="inline-flex items-center gap-2 text-xs font-medium text-neutral-100 hover:text-neutral-300">
-      See growth results
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
-        <path d="M5 12h14"></path>
-        <path d="m12 5 7 7-7 7"></path>
-      </svg>
-    </a>
-  </div>
-</div>
-  </div>
-</article>
-            {/* Sub card */}
-            <div className="relative w-full max-w-xl mt-8">
-  <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-[calc(100%-3rem)] h-9 shadow-[0_6px_20px_rgba(16,185,129,0.25)] bg-emerald-900/10 rounded-2xl"></div>
-  <article className="relative overflow-hidden ring-1 ring-white/15 text-white bg-gradient-to-r from-emerald-600 to-green-600 rounded-2xl shadow-2xl">
-    <div className="pointer-events-none absolute inset-x-0 -top-10 h-24 bg-gradient-to-b from-white/40 to-transparent"></div>
-    <div className="sm:p-5 pt-4 pr-4 pb-4 pl-4">
-      <div className="flex items-start gap-3">
-        <div className="shrink-0 rounded-xl bg-gradient-to-b from-slate-900 to-slate-800 p-2.5 ring-1 ring-white/10 shadow-md">
-          <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" className=""></path>
-          </svg>
-        </div>
-        <div className="min-w-0 flex-1">
-          <div className="flex items-start justify-between gap-3">
-            <h3 className="text-[15px] sm:text-base font-semibold tracking-tight truncate">Growth Opportunity: Sustainability Focus</h3>
-            <span className="text-xs sm:text-sm text-white/85 shrink-0">2m ago</span>
-          </div>
-          <p className="mt-1 text-sm leading-6 text-white/90">
-            Consider highlighting your eco-friendly practices and sustainable approach. This resonates strongly with modern consumers and builds trust.
-          </p>
-        </div>
-      </div>
-    </div>
-  </article>
-</div>
-</div>
-        </div>
-
-        {/* Logo strip */}
-        <div className="border-black/10 border-t mt-12 pt-8">
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 place-items-center text-neutral-500">
-            <div className="flex gap-2 items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="asterisk" className="lucide lucide-asterisk h-4 w-4"><path d="M12 6v12"></path><path d="M17.196 9 6.804 15"></path><path d="m6.804 9 10.392 6"></path></svg><span className="text-sm font-medium font-sans">Lumen</span>
+            {/* Logo strip */}
+            <div className="border-black/10 border-t mt-12 pt-8">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 place-items-center text-neutral-500">
+                <div className="flex gap-2 items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="asterisk" className="lucide lucide-asterisk h-4 w-4"><path d="M12 6v12"></path><path d="M17.196 9 6.804 15"></path><path d="m6.804 9 10.392 6"></path></svg><span className="text-sm font-medium font-sans">Lumen</span>
+                </div>
+                <div className="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="sparkles" className="lucide lucide-sparkles h-4 w-4"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg><span className="text-sm font-medium font-sans">Oxide</span>
+                </div>
+                <div className="flex gap-2 items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="orbit" className="lucide lucide-orbit w-[16px] h-[16px]" style={{width: "16px", height: "16px", color: "rgb(115, 115, 115)"}}><path d="M20.341 6.484A10 10 0 0 1 10.266 21.85"></path><path d="M3.659 17.516A10 10 0 0 1 13.74 2.152"></path><circle cx="12" cy="12" r="3"></circle><circle cx="19" cy="5" r="2"></circle><circle cx="5" cy="19" r="2"></circle></svg><span className="text-sm font-medium font-sans">Orbit</span>
+                </div>
+                <div className="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="blocks" className="lucide lucide-blocks h-4 w-4"><path d="M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H2"></path><rect x="14" y="2" width="8" height="8" rx="1"></rect></svg><span className="text-sm font-medium font-sans">Miloove</span>
+                </div>
+                <div className="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="beaker" className="lucide lucide-beaker h-4 w-4"><path d="M4.5 3h15"></path><path d="M6 3v16a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V3"></path><path d="M6 14h12"></path></svg><span className="text-sm font-medium font-sans">Labify</span>
+                </div>
+                <div className="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="box" className="lucide lucide-box h-4 w-4"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path><path d="m3.3 7 8.7 5 8.7-5"></path><path d="M12 22V12"></path></svg><span className="text-sm font-medium font-sans">Pallet</span>
+                </div>
             </div>
-            <div className="flex items-center gap-2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="sparkles" className="lucide lucide-sparkles h-4 w-4"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg><span className="text-sm font-medium font-sans">Oxide</span>
             </div>
-            <div className="flex gap-2 items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="orbit" className="lucide lucide-orbit w-[16px] h-[16px]" style={{width: "16px", height: "16px", color: "rgb(115, 115, 115)"}}><path d="M20.341 6.484A10 10 0 0 1 10.266 21.85"></path><path d="M3.659 17.516A10 10 0 0 1 13.74 2.152"></path><circle cx="12" cy="12" r="3"></circle><circle cx="19" cy="5" r="2"></circle><circle cx="5" cy="19" r="2"></circle></svg><span className="text-sm font-medium font-sans">Orbit</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="blocks" className="lucide lucide-blocks h-4 w-4"><path d="M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H2"></path><rect x="14" y="2" width="8" height="8" rx="1"></rect></svg><span className="text-sm font-medium font-sans">Miloove</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="beaker" className="lucide lucide-beaker h-4 w-4"><path d="M4.5 3h15"></path><path d="M6 3v16a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V3"></path><path d="M6 14h12"></path></svg><span className="text-sm font-medium font-sans">Labify</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="box" className="lucide lucide-box h-4 w-4"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path><path d="m3.3 7 8.7 5 8.7-5"></path><path d="M12 22V12"></path></svg><span className="text-sm font-medium font-sans">Pallet</span>
-            </div>
-          </div>
         </div>
-      </div>
+        </div>
     </section>
 
     {/* Metrics band */}
@@ -762,14 +764,14 @@ export default function Page() {
     </div>
 
     {/* Right: Newsletter + links */}
-    <div className="">
+    <div className="NewsletterSection mt-12.5">
       <p className="text-sm font-medium text-neutral-800 font-sans">Join our innovation newsletter</p>
       <form className="mt-3">
         <label htmlFor="footer-email" className="sr-only">Email address</label>
         <div className="flex items-center gap-3 sm:max-w-sm">
           <input id="footer-email" type="email" placeholder="Your email address" className="flex-1 rounded-full border border-neutral-300 bg-white px-5 py-2.5 text-sm placeholder-neutral-500 focus:outline-none"/>
           <button type="button" className="inline-flex items-center rounded-full bg-neutral-900 text-white px-5 py-2.5 text-sm font-medium hover:bg-black">
-            Get Updates
+            Subsribe
           </button>
         </div>
       </form>
@@ -805,7 +807,7 @@ export default function Page() {
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="arrow-right" className="lucide lucide-arrow-right h-4 w-4 text-neutral-500"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
             
     </a>
-    <p className="text-neutral-600 font-sans py-5">© <span id="year" className="font-sans">2025</span> NEXUS. All rights reserved.</p>
+    <p className="text-neutral-600 text-sm font-sans py-5">© <span id="year" className="font-sans">2025</span> NEXUS. All rights reserved.</p>
   </li></ul></div>
 </div></div>
   </div>
