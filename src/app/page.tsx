@@ -187,12 +187,14 @@ export default function Page() {
         </Navbar>
       </div>
       <HeroParallax products={products} />
-      <section className="relative overflow-hidden rounded-3xl mt-4 mr-6 mb-4 ml-6 border border-black/10">
+   
+    {/* Feature section */}
+      <section className="relative overflow-hidden rounded-3xl mt-4 mr-6 mb-4 ml-6 border border-black/10 px-6">
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-emerald-100 to-lime-100"></div>
       <div className="max-w-7xl md:py-20 mr-auto ml-auto pt-16 pr-6 pb-16 pl-6">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="FeatureMain">
-            <h1 className="sm:text-5xl md:text-6xl text-4xl font-medium text-neutral-900 tracking-tight" style={{}}>Turn bold ideas into products — <span className="font-normal italic font-instrument-serif" style={{}}>growth without the noise</span></h1>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium text-neutral-900 tracking-tight break-words" style={{}}>Turn bold ideas into products — <span className="font-normal italic font-instrument-serif" style={{}}>growth without the noise</span></h1>
             <p className="mt-5 text-neutral-700 leading-relaxed font-sans">
               We partner with ambitious teams to craft delightful interfaces, validate quickly, and scale with data-backed decisions.
             </p>
@@ -327,7 +329,7 @@ export default function Page() {
     </div>
   </article>
 </div>
-          </div>
+</div>
         </div>
 
         {/* Logo strip */}
