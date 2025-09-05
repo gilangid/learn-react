@@ -114,11 +114,11 @@ export default function Page() {
   const navItems = [
     {
       name: "Features",
-      link: "#features",
+      link: "#FeatureMain",
     },
     {
       name: "Pricing",
-      link: "#pricing",
+      link: "#PricingSection",
     },
     {
       name: "Contact",
@@ -192,7 +192,7 @@ export default function Page() {
       <main>
    
     {/* Feature section */}
-      <section className="relative isolate z-10 overflow-hidden rounded-3xl mt-4 mb-4 mx-4 md:mx-6 border border-black/10 dark:border-white/10">
+      <section id="FeatureMain" className="relative isolate z-10 overflow-hidden rounded-3xl mt-4 mb-4 mx-4 md:mx-6 border border-black/10 dark:border-white/10">
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-emerald-100 to-lime-100 dark:from-emerald-900 dark:to-lime-900"></div>
       <div className="py-16 md:py-20 break-words">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -511,7 +511,8 @@ export default function Page() {
           </div>
         </div>
       </div>
-    </section><section className="relative md:py-20 bg-neutral-50 dark:bg-neutral-900 pt-16 pb-16">
+    </section>
+  <section id="PricingSection" className="relative md:py-20 bg-neutral-50 dark:bg-neutral-900 pt-16 pb-16">
   <div className="absolute inset-0 -z-10 bg-gradient-to-r from-neutral-100 to-white dark:from-neutral-800 dark:to-neutral-900"></div>
   <div className="max-w-7xl mx-auto px-6">
     <div className="text-center max-w-3xl mx-auto mb-12">
@@ -672,7 +673,7 @@ export default function Page() {
 </section>
 
     {/* CTA - This section has an image background, so it should be fine. */}
-    <section className="py-14">
+    <section id="contact" className="py-14">
       <div className="max-w-7xl mx-auto px-6">
         <div className="relative overflow-hidden rounded-3xl border border-neutral-200 dark:border-neutral-800">
           <img src="https://hoirqrkdgbmvpwutwuwj-all.supabase.co/storage/v1/object/public/assets/assets/1e4989cc-80c7-45b1-9eb3-3f72b473d778_1600w.jpg" alt="mountain minimal" className="absolute inset-0 h-full w-full object-cover"/>
