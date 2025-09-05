@@ -189,6 +189,7 @@ export default function Page() {
       <div className="relative z-0 overflow-hidden">
         <HeroParallax products={products} />
       </div>
+      <main>
    
     {/* Feature section */}
       <section className="relative isolate z-10 overflow-hidden rounded-3xl mt-4 mr-6 mb-4 ml-6 border border-black/10 px-6">
@@ -200,7 +201,7 @@ export default function Page() {
             <p className="mt-5 text-neutral-700 leading-relaxed font-sans">
               We partner with ambitious teams to craft delightful interfaces, validate quickly, and scale with data-backed decisions.
             </p>
-            <div className="mt-8 flex items-center gap-3">
+            <div className="mt-8 flex flex-wrap items-center gap-3">
               <a href="#" className="inline-flex items-center gap-2 hover:bg-black transition text-sm font-medium text-white bg-neutral-900 rounded-full pt-3 pr-6 pb-3 pl-6">
                 
                 Get started
@@ -801,12 +802,15 @@ export default function Page() {
         <li className="">
           <a href="#" className="flex items-center justify-between border-b border-neutral-200 py-3 text-sm text-neutral-800">
             Plans
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="arrow-right" className="lucide lucide-arrow-right h-4 w-4 text-neutral-500"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg><p className="text-neutral-600 font-sans">© <span id="year" className="font-sans">2025</span> NEXUS. All rights reserved.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" data-lucide="arrow-right" className="lucide lucide-arrow-right h-4 w-4 text-neutral-500"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+            
     </a>
+    <p className="text-neutral-600 font-sans py-5">© <span id="year" className="font-sans">2025</span> NEXUS. All rights reserved.</p>
   </li></ul></div>
 </div></div>
   </div>
 </footer>
+      </main>
     </>
   );
 }
